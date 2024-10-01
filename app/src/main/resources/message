@@ -1,0 +1,199 @@
+<UpdateMonitoringApplicationRequest>
+    <ApplicationID>0</ApplicationID>
+    <ApplicationNumber>ACT-67890</ApplicationNumber>
+    <ApplicationIdCRM>CRM-98765</ApplicationIdCRM>
+    <MonitoringLocation>Office Location</MonitoringLocation>
+    <AppDate>2024-01-01</AppDate>
+    <AppDateLastMonitoring>2024-02-01</AppDateLastMonitoring>
+    <Currency>
+        <CurrencyCode>USD</CurrencyCode>
+        <RateCB>100.25</RateCB>
+    </Currency>
+    <Currency>
+        <CurrencyCode>EUR</CurrencyCode>
+        <RateCB>95.30</RateCB>
+    </Currency>
+    <Client>
+        <FullName>John Doe</FullName>
+        <MasterAccountMfoCode>123456</MasterAccountMfoCode>
+        <MasterAccountMfoName>Asaka Bank Main Branch</MasterAccountMfoName>
+        <INN>9876543210</INN>
+        <RegistrationAddress>123 Main St, City</RegistrationAddress>
+        <ProjectPlace>Industrial Zone</ProjectPlace>
+        <RegistrationDate>2022-05-15</RegistrationDate>
+        <RegistrationPlace>City Hall</RegistrationPlace>
+        <EconomicSector>Manufacturing</EconomicSector>
+        <Industry>Automobile</Industry>
+        <MasterAccountMfo>Asaka Bank</MasterAccountMfo>
+        <OpenAccountDate>2023-06-01</OpenAccountDate>
+        <NumberOfJobs>100</NumberOfJobs>
+        <NumberOfEmployee>500</NumberOfEmployee>
+        <CapitalAmount>1500000</CapitalAmount>
+        <CapitalCurrency>USD</CapitalCurrency>
+        <ProjectDate>2025-01-01</ProjectDate>
+        <ProjectDateFact>2025-02-01</ProjectDateFact>
+        <ProjectComment>Project is on track</ProjectComment>
+    </Client>
+    <Director>
+        <FullName>Jane Doe</FullName>
+        <MobilePhone>+1234567890</MobilePhone>
+        <BirthDate>1980-01-01</BirthDate>
+    </Director>
+    <Accountant>
+        <FullName>Sam Smith</FullName>
+    </Accountant>
+    <FounderPhysical>
+        <FullName>Michael Johnson</FullName>
+        <ShareAmount>750000</ShareAmount>
+        <SharePercent>50</SharePercent>
+    </FounderPhysical>
+    <FounderLegal>
+        <Name>ABC Corporation</Name>
+        <ShareAmount>750000</ShareAmount>
+        <SharePercent>50</SharePercent>
+    </FounderLegal>
+    <FinancialPlan>
+        <Rate>
+            <Type>Revenue Growth</Type>
+            <Amount>10.00</Amount>
+        </Rate>
+        <Rate>
+            <Type>Operating Margin</Type>
+            <Amount>20.00</Amount>
+        </Rate>
+        <Comment>Strong financial performance expected</Comment>
+    </FinancialPlan>
+    <Contract>
+        <СontractId>CT-00123</СontractId>
+        <ContractNumber>12345</ContractNumber>
+        <ProductName>Corporate Loan</ProductName>
+        <ProductCode>CL-001</ProductCode>
+        <Currency>USD</Currency>
+        <Amount>500000.00</Amount>
+        <UnusedAmount>250000.00</UnusedAmount>
+        <Purpose>Business Expansion</Purpose>
+        <InterestRate>7%</InterestRate>
+        <GracePeriod>12</GracePeriod>
+        <SourceOfLoan>Internal</SourceOfLoan>
+        <BasisForLoan>Purchase of machinery</BasisForLoan>
+        <FirstPaymentDate>2024-03-01</FirstPaymentDate>
+        <Period>2024-03-01 - 2029-03-01</Period>
+        <StartDate>2024-03-01</StartDate>
+        <EndDate>2029-03-01</EndDate>
+        <CurrentDebt>300000.00</CurrentDebt>
+        <CurrentDebtOverduePart>5000.00</CurrentDebtOverduePart>
+        <PercentDebt>15000.00</PercentDebt>
+        <PercentDebtOverduePart>1000.00</PercentDebtOverduePart>
+        <FuturePayment>50000.00</FuturePayment>
+        <FuturePaymentPersent>3500.00</FuturePaymentPersent>
+        <TargetUseAmount>100000.00</TargetUseAmount>
+    </Contract>
+    <Restructuring>
+        <Contract>
+            <ContractNumber>RES-001</ContractNumber>
+            <ContractDate>2024-04-01</ContractDate>
+            <Amount>400000.00</Amount>
+            <Term>5 years</Term>
+            <NewAmount>350000.00</NewAmount>
+            <NewTerm>4 years</NewTerm>
+            <Reason>Market changes</Reason>
+            <Options>Deferred payments</Options>
+        </Contract>
+        <Comment>Restructuring due to external factors</Comment>
+    </Restructuring>
+    <CreditHistory>
+        <SwitchedMonth>2</SwitchedMonth>
+        <DelaysLess60>1</DelaysLess60>
+        <DelaysLess90>0</DelaysLess90>
+        <DelaysMore90>0</DelaysMore90>
+        <SwitchedMonthAmount>50000.00</SwitchedMonthAmount>
+        <DelaysLess60Amount>10000.00</DelaysLess60Amount>
+        <DelaysLess90Amount>0.00</DelaysLess90Amount>
+        <DelaysMore90Amount>0.00</DelaysMore90Amount>
+        <DelaysCurrentDebtDay>30</DelaysCurrentDebtDay>
+        <DelaysPercentDay>15</DelaysPercentDay>
+        <FuturePaymentDate>2024-05-01</FuturePaymentDate>
+        <FuturePaymentAmount>60000.00</FuturePaymentAmount>
+        <FuturePaymentPersentDate>2024-06-01</FuturePaymentPersentDate>
+        <FuturePaymentPersentAmount>4000.00</FuturePaymentPersentAmount>
+        <Contract>
+            <ContractNumber>CT-002</ContractNumber>
+            <BankCode>ASB</BankCode>
+            <Branch>Main Branch</Branch>
+            <CreditTypeCode>Business</CreditTypeCode>
+            <Currency>USD</Currency>
+            <Amount>400000.00</Amount>
+            <StartDate>2023-01-01</StartDate>
+            <EndDate>2028-01-01</EndDate>
+            <InterestRate>5%</InterestRate>
+            <OverdueNumber>1</OverdueNumber>
+        </Contract>
+        <Comment>Minor delays due to operational issues</Comment>
+        <CreditContractsComment>All other credits are in good standing</CreditContractsComment>
+    </CreditHistory>
+    <LetterOfCredit>
+        <Ref>LC-12345</Ref>
+        <Beneficiary>XYZ Ltd</Beneficiary>
+        <Currency>USD</Currency>
+        <StartDate>2024-02-01</StartDate>
+        <EndDate>2025-02-01</EndDate>
+        <Type>Irrevocable</Type>
+        <Amount>300000.00</Amount>
+        <UnpaidAmount>50000.00</UnpaidAmount>
+    </LetterOfCredit>
+    <FinancialReport>
+        <RowNumber>1</RowNumber>
+        <SumOldPeriodIncome>150000.00</SumOldPeriodIncome>
+        <SumOldPeriodLoss>50000.00</SumOldPeriodLoss>
+        <SumPeriodIncome>200000.00</SumPeriodIncome>
+        <SumPeriodLoss>70000.00</SumPeriodLoss>
+    </FinancialReport>
+    <AccountingReport>
+        <RowNumber>1</RowNumber>
+        <SumBeginPeriod>50000.00</SumBeginPeriod>
+        <SumEndPeriod>100000.00</SumEndPeriod>
+    </AccountingReport>
+    <Turnover>
+        <Account>
+            <Account>12345</Account>
+            <BankName>Asaka Bank</BankName>
+            <Type>Current</Type>
+            <CurrencyCode>USD</CurrencyCode>
+            <StartDate>2024-01-01</StartDate>
+            <EndDate>2024-06-01</EndDate>
+            <Debit>50000.00</Debit>
+            <Credit>60000.00</Credit>
+        </Account>
+        <Comment>Turnover looks stable</Comment>
+    </Turnover>
+    <CardFileDocuments>
+        <Name>John Doe</Name>
+        <BudgetPayment>10000.00</BudgetPayment>
+        <SalaryPayment>5000.00</SalaryPayment>
+        <PensionFundPayment>2000.00</PensionFundPayment>
+        <NonBudgetPayment>3000.00</NonBudgetPayment>
+        <ExecutiveDocuments>1000.00</ExecutiveDocuments>
+        <OtherPayments>500.00</OtherPayments>
+    </CardFileDocuments>
+    <SpecialConditions>
+        <Condition>
+            <Text>Maintain minimum balance</Text>
+            <StartDate>2024-01-01</StartDate>
+            <EndDate>2025-01-01</EndDate>
+            <Executed>Yes</Executed>
+            <Comment>Condition met successfully</Comment>
+        </Condition>
+        <Comment>All conditions are met</Comment>
+    </SpecialConditions>
+    <ProjectImplementation>
+        <Text>Project is 50% complete</Text>
+    </ProjectImplementation>
+    <StopMonitoring>Yes</StopMonitoring>
+    <OtherReasonStopMonitoring>Project Completed</OtherReasonStopMonitoring>
+    <StopMonitoringComment>All tasks finished</StopMonitoringComment>
+    <TotalComment>Final review positive</TotalComment>
+    <BankEmployeePosition>Senior Manager</BankEmployeePosition>
+    <BankEmployeeFullName>Olga Petrovna</BankEmployeeFullName>
+    <ApprovePersonPosition>Branch Director</ApprovePersonPosition>
+    <ApprovePersonFullName>Nikolay Ivanov</ApprovePersonFullName>
+</UpdateMonitoringApplicationRequest>
